@@ -1,0 +1,11 @@
+package com.gm2.pvd.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.gm2.pvd.entity.Sale;
+
+@Repository
+public interface SaleRepository extends JpaRepository<Sale, Long>{
+
+}
